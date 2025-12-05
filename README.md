@@ -1,27 +1,84 @@
-# 2806Memorando
+Angular Basic Animations Project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.1.
+Projeto em Angular focado na aprendizagem e demonstração de animações básicas — ideal para praticar transições, animações de estado, uso de @angular/animations e melhorar a experiência do usuário com efeitos visuais.
 
-## Development server
+🧠 Sobre o projeto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Este repositório contém exemplos e implementações de animações em Angular, com componentes que demonstram transições, animações de entrada/saída, animações de rota, animações condicionais, entre outras. O objetivo é servir como base de estudo/prática para animações no frontend usando Angular.
 
-## Code scaffolding
+✅ O que o projeto demonstra / funcionalidades
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Utilização de animações com @angular/animations no Angular
 
-## Build
+Animações de entrada (enter), saída (exit), transições de estado e animações condicionais
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Animações em componentes e possivelmente animações de rota (se aplicável)
 
-## Running unit tests
+Organização do código com componentes + módulos + lógica em TypeScript, templates e estilos
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Possibilidade de combinar animações com interações do usuário (cliques, hovers, toggles, navegação, etc.)
 
-## Running end-to-end tests
+(Se houver funcionalidades adicionais — por exemplo: animações mais complexas, integração com dados, controles dinâmicos — adicione aqui.)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+💻 Tecnologias / Dependências
 
-## Further help
+Angular (versão usada no projeto)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+@angular/animations
+
+TypeScript
+
+HTML / CSS / (SCSS)
+
+Outras dependências definidas no package.json, se houver
+
+🚀 Como executar o projeto localmente
+# Clone o repositório
+git clone https://github.com/raiego/angular-basic-animations-project.git
+
+# Entre na pasta do projeto
+cd angular-basic-animations-project
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+ng serve
+
+
+Depois, abra no navegador:
+
+➡️ http://localhost:4200/
+
+📂 Estrutura sugerida do projeto
+/src
+  /app
+    /components     # Componentes com animações
+    /animations     # (opcional) arquivos de animação ou utilitários
+    app.module.ts
+    ...
+angular.json
+package.json
+README.md
+
+
+(Adapte conforme a estrutura real do seu projeto.)
+
+🔧 Scripts úteis
+
+ng serve — inicia o servidor para desenvolvimento
+
+ng build — build para produção
+
+ng test — executar testes (caso configurados)
+
+ng generate ... — gerar novos componentes, serviços, animações etc
+
+🤝 Contribuições
+
+Contribuições são bem-vindas!
+Se você quiser sugerir novas animações, corrigir algo ou adicionar exemplos — abra uma issue ou envie um pull request.
+
+📄 Licença
+
+Este projeto está sob a licença MIT — sinta-se livre para usar e modificar conforme desejar.
